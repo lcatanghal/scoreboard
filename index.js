@@ -3,7 +3,7 @@
 let homeScoreEl = document.getElementById ("home-score")
 let homeScore = 0
 
-let guestScoreEl = document.getElementById ("guest-score")
+let guestScoreEl = document.getElementById ("away-score")
 let guestScore = 0
 
 function increaseHomeScore(increment) {
