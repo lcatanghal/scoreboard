@@ -7,11 +7,11 @@
             <div>
                 <h3>HOME</h3>
                 <h1 id="home-score">0</h1>
-                <button onclick="increaseHomeScore1()" id="addscore1">+1</button>
-                <button onclick="increaseHomeScore2()" id="addscore2">+2</button>
-                <button onclick="increaseHomeScore3()" id="addscore3">+3</button>
+                <button onclick="increaseHomeScore(1)" id="addscore1">+1</button>
+                <button onclick="increaseHomeScore(2)" id="addscore2">+2</button>
+                <button onclick="increaseHomeScore(3)" id="addscore3">+3</button>
                     <div class="center-reset-btn">
-                        <button id="btn-h-reset" onclick="resetHomeScore()">reset counter</button>
+                        <button id="btn-h-reset" onclick="resetScore('home')">reset counter</button>
                     </div>
             </div>
             <div>
@@ -21,7 +21,7 @@
                 <button onclick="increaseGuestScore2()" id="addscore2">+2</button>
                 <button onclick="increaseGuestScore3()" id="addscore3">+3</button>
                     <div class="center-reset-btn">
-                        <button id="btn-g-reset" onclick="resetGuestscore()">reset counter</button>
+                        <button id="btn-g-reset" onclick="resetScore('away')">reset counter</button>
                     </div>
             </div>
         </div>
