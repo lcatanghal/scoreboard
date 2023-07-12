@@ -11,8 +11,8 @@ function increaseHomeScore(increment) {
     homeScoreEl.textContent = homeScore
 }
 
-function increaseAwayScore(incremenet) {
-    awayScore += incremenet
+function increaseAwayScore(increment) {
+    awayScore += increment
     awayScoreEl.textContent = awayScore
 }
 
